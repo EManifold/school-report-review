@@ -8,3 +8,6 @@ Three point grading system - green, amber, red - how many of each are in the rep
 "Green, Amber, Amber" => "Green: 1\nAmber: 2"
 "Green, Amber, Red" => "Green: 1\nAmber: 1\nRed: 1"
 "Green, Red, Amber, Red" => "Green: 1\nAmber: 1\nRed: 2"
+
+Class: School Report
+=> Method: Format
