@@ -13,5 +13,9 @@ describe SchoolReport do
     it "should return a correctly formatted 'Green and Amber' amount when given one green one amber" do
       expect(subject.format("Green, Amber")).to eq "Green: 1\nAmber: 1"
     end
+
+    it "should return a correctly formatted 'Green and Amber' amount when given multiple greens and ambers" do
+      expect(subject.format("Green, Amber, Amber")).to eq "Green: 1\nAmber: 2"
+    end
   end
 end
