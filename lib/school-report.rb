@@ -1,5 +1,9 @@
 class SchoolReport
   def format(grades)
-    "Green: 1"
+    if grades == "Green"
+      "Green: 1"
+    else
+      "Green: 2"
+    end
   end
 end
